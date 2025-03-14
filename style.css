@@ -7,15 +7,23 @@
    box-sizing: border-box;
 }
 
+.bannerimg {
+  background-color: #964;
+  color: #EEEEEE;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 html {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 img{ 
-max-height:200px; 
-max-width:200px; 
-height:auto; 
-width:auto; 
+  max-height:200px; 
+  max-width:200px; 
+  height:auto; 
+  width:auto; 
 }
 
 .midimg{
@@ -46,6 +54,11 @@ ul {
   
   li {
     margin: 16px 0;
+  }
+
+  li:hover {
+    font-weight: bold;
+    font-size: 1.1em;
   }
 
   blockquote {
